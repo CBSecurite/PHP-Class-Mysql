@@ -1,0 +1,39 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.block {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 0.25rem;
+  -webkit-box-shadow: 5px 2px 15px -3px rgba(0,0,0,0.56);
+  box-shadow: 5px 2px 15px -3px rgba(0,0,0,0.56);
+}
+div.block > div.title {
+  border-radius: 0.25rem 0.25rem 0 0;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 0.5rem;
+}
+div.block > div.center {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+div.block > div.center > text {
+  margin: 0.5rem;
+}
+div.block > div.center > h4,
+div.block > div.center > h5 {
+  margin: 0.5rem;
+}
+div.block > div.center > ul {
+  margin: 0.25rem;
+}
+div.block > div.center > ul > li {
+  margin: 0.25rem;
+}

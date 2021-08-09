@@ -1,0 +1,117 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+div.myAccount {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 0.25rem;
+  -webkit-box-shadow: 5px 2px 15px -3px rgba(0,0,0,0.56);
+  box-shadow: 5px 2px 15px -3px rgba(0,0,0,0.56);
+}
+div.myAccount > div.header {
+  width: 100%;
+  height: 200px;
+  background: url("../images/fondProfile.jpg");
+  border-bottom: 2px solid #000000;
+  color: #000000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+div.myAccount > div.header > div.info > h1 {
+  font-size: 40px;
+  margin: 0.125rem;
+  text-shadow: 1px 1px 2px #FFFFFF;
+}
+div.myAccount > div.header > div.info > h2 {
+  font-size: 30px;
+  margin: 0.125rem;
+  text-shadow: 1px 1px 2px #FFFFFF;
+}
+div.myAccount > form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+div.myAccount > form > div.title {
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 0.5rem;
+  font-size: 18px;
+  background-color: #000000;
+  margin-bottom: 0.5rem;
+}
+div.myAccount > form > section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem
+}
+div.myAccount > form > section > img:nth-child(1) {
+  width: 250px;
+  height: 300px;
+  margin: 0 125px;
+}
+div.myAccount > form > section > img:nth-child(2) {
+  width: 250px;
+  height: 250px;
+  margin: 0 125px;
+}
+div.myAccount > form > section > div.form {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  width: 500px;
+}
+div.myAccount > form > section > div.form > label {
+  padding: 0.125rem;
+}
+div.myAccount > form > section > div.form > input {
+  margin: 0.25rem 0;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #CCCCCC;
+}
+div.myAccount > form > section > div.form > button {
+  margin: 0.5rem 0 0.25rem 0;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  cursor: pointer;
+}
+div.myAccount > form > section > div.form > button:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+div.myAccount > form > div.msgInfo,
+div.myAccount > form > div.msgPassword {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #CCCCCC;
+  border-radius: 0.5rem;
+}
+div.myAccount > form div.error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+div.myAccount > form div.valid {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+div.myAccount > form > div.error > h4,
+div.myAccount > form > div.error > ul,
+div.myAccount > form > div.valid > h4,
+div.myAccount > form > div.valid > ul {
+  margin: 0.125rem 0;
+}

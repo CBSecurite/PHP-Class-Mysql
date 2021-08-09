@@ -1,0 +1,120 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+div.profile {
+  max-width: 1000px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 0.25rem;
+  -webkit-box-shadow: 5px 2px 15px -3px rgba(0,0,0,0.56);
+  box-shadow: 5px 2px 15px -3px rgba(0,0,0,0.56);
+}
+div.profile > div.header {
+  width: 100%;
+  height: 200px;
+  background: url("../images/fondProfile.jpg");
+  border-bottom: 2px solid #000000;
+  color: #000000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+div.profile > div.header > div.info > h1 {
+  font-size: 40px;
+  margin: 0.125rem;
+  text-shadow: 1px 1px 2px #FFFFFF;
+}
+div.profile > div.header > div.info > h2 {
+  font-size: 30px;
+  margin: 0.125rem;
+  text-shadow: 1px 1px 2px #FFFFFF;
+}
+div.profile > form.lookingFor {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+div.profile > form.lookingFor > input {
+  display: flex;
+  flex-grow: 1;
+  padding: 0.5rem;
+  height: 34px;
+  border-radius: 0.5rem 0 0 0.5rem;
+  border: 1px solid #CCCCCC;
+}
+div.profile > form.lookingFor > input:hover,
+div.profile > form.lookingFor > input:focus {
+  border-radius: 0.5rem 0 0 0.5rem;
+  border: 1px solid #CCCCCC;
+}
+div.profile > form.lookingFor > button {
+  width: 100px;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0 0.25rem 0.25rem 0;
+  color: #fff;
+  background-color: #6c757d;
+  cursor: pointer;
+}
+div.profile > form.lookingFor > button:hover {
+  color: #fff;
+  background-color: #5a6268;
+}
+div.profile > div.resultLookingFor {
+  padding: 0.5rem;
+  border-bottom: 2px solid #000000;
+}
+div.profile > div.title {
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 0.5rem;
+  font-size: 18px;
+  background-color: #000000;
+  margin-bottom: 0.5rem;
+}
+div.profile > div.myPets {
+  padding: 0.5rem;
+}
+div.profile > div.myPets > h4 {
+  color: #000000;
+  background-color: #CCCCCC;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  font-size: 14px;
+  margin: 0.25rem 0;
+
+}
+div.profile > div.myPets > div.petList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+div.profile > div.myPets > div.petList > div.petImgBloc {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: calc(100% / 3);
+  padding: 0.5rem;
+}
+div.profile > div.myPets > div.petList > div.petImgBloc > span {
+  padding: 0.5rem 0;
+}
+div.profile > div.myPets > div.petList > div.petImgBloc > img {
+  height: 100%;
+  max-height: 200px;
+  width: 100%;
+  min-width: calc(100% - 1rem);
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 6px 0px #0000002e;
+}
+div.profile > div.myPets > div.petList > div.petImgBloc > img:hover {
+  transform: scale(1.03);
+  transition: ease 0.4s;
+}
