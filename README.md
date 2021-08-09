@@ -1,3 +1,6 @@
+<h2>Evaluation D42 PHP Class / Mysql</h2>
+
+
 Votre société, à la demande de son client principal, souhaite développer une interface web permettant aux utilisateurs s’inscrivant d’afficher les photos de leurs chats. Étant nouveau dans la société, celle-ci, afin de tester vos capacités, vous demande de mettre en place la gestion des utilisateurs :
 
 Dans un premier temps de :
